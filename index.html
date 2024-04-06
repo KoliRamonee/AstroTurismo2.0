@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AstroTurismo</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"/>
+    <link rel="icon" href="./images/telescopio.png" sizes="32x32" type="image/png" />
+  </head>
+
+  <body>
+    <!-- CONTENIDO GENERAL DEL HEADER INCLUYENDO AL MISMO NAVBAR DENTRO -->
+    <header class="header">
+      <img class="logo" src="./images/logo1.png" alt="" />
+                         
+                   <!-- NAVBAR -->
+      <nav class="navbar">
+
+        <ul class="lista1">
+          <li><a href="./bloques/quienes.html">Quienes somos?</a></li>
+          <li><a href="#">Lugares</a></li>
+        </ul>
+
+        <ul class="lista2">
+          <li><a href="">Iniciar sesión</a></li>
+          <li id="registro"><a href="">Registrarse gratis</a></li>
+        </ul>
+
+      </nav>
+    </header>
+
+
+          <!-- CONTENIDO PRINCIPAL DE NUESTRO HOME-->
+    <main>
+      <div class="contenido">
+        <div class="textoContenido">
+
+                    <!--DENTRO DE ESTE DIV ↓, PUEDEN MOSTRARSE DOS TIPOS DE CONTENIDOS MEDIANTE JS-->
+
+          <div id="pagina1" class="pagina activa">
+            <h2>Bienvenidos <br/> A <br/>"STARGAZERS"</h2>
+            <button class="btn" onclick="mostrarPagina('pagina2')">→</button>
+          </div>
+
+
+          <!--SEGUNDO CONTENIDO DEL DIV ↓-->
+          <div id="pagina2" class="pagina">
+            <h2>Nuestras Redes</h2>
+            <div class="redes">
+              <img src="./images/Facebook.png" alt="" />
+              <img src="./images/whatsappwhatssapp.png" alt="" />
+              <img src="./images/instagram.png" alt="" />
+            </div>
+            <button class="btn" onclick="mostrarPagina('pagina1')">Volver</button>
+          </div>
+        </div>
+
+                  <!--ESTE DIV CONTIENE LA IMAGEN DE LA DERECHA ↓-->
+
+        <div class="imagenContenido">
+          <img src="/images/Group.png" alt="" />
+        </div>
+      </div>
+    </main>
+
+
+    <script src="./index.js"></script>
+  </body>
+</html>

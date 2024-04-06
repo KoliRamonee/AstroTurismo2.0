@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Merriweather", serif;
+
+}
+
+
+body{
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/cecy8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.header {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+  }
+
+  
+  .logo{
+    width: 5em;
+  }
+
+
+  .navbar {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+  }
+
+  
+  
+  .lista1,
+  .lista2 {
+    display: flex;
+    font-size: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center; 
+  }
+
+ .lista1 {
+margin-left: 25%;
+font-weight: 300;
+font-size: 30px;
+}
+
+.lista1 a {
+    text-decoration: none; 
+    position: relative; 
+  }
+  
+  .lista1 a::after {
+    content: ''; 
+    position: absolute; 
+    bottom: -3px; 
+    left: 0; 
+    width: 0; 
+    height: 2px; 
+    background-color: white; 
+    transition: width 0.3s ease; 
+  }
+  
+  .lista1 a:hover::after {
+    width: 100%; 
+  }
+  
+
+
+  .lista2 {
+    margin-left: auto;
+  }
+
+  .lista1 li,
+  .lista2 li {
+    margin: 5px 15px;
+  }
+
+  .lista1 a,
+  .lista2 a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+
+  #registro{
+    background-color:white;
+    color: black;
+    padding: 10px;
+    border-radius: 30px;
+  }
+
+  #registro a{
+    color: black;
+  }
+
+  main {
+    width: 100vw;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      overflow: auto;
+  }
+  
+
+  .contenido {
+    width: 80vw;
+    height: 25rem;
+    display: flex;
+    background-color: #CFDAE8;
+    margin: 10px;
+    border-bottom-right-radius: 150px;
+    box-shadow: 5px 5px 20px rgba(127, 126, 126, 0.681); 
+  }
+  
+
+.textoContenido {
+  width: 50%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+.pagina {
+  display: none;
+}
+
+.activa {
+  display: block;
+}
+
+.textoContenido h2{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 300;
+  color: black;
+}
+
+.imagenContenido{
+  width: 50%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  
+}
+
+.imagenContenido img{
+  width: 70%;
+  height: auto;
+}
+
+
+@media (max-width: 768px) {
+  .contenido {
+    display: block;
+    height: auto;
+  }
+  .textoContenido{
+ width: 100%;
+ height: auto;
+}
+
+.textoContenido h2{
+  text-align: center;
+  font-size: 2em;
+}
+
+.imagenContenido{
+  width: 100%;
+  height: auto;
+ }
+}
+
+
+@media (max-width: 958px) {
+  .contenido {
+    display: block;
+    height: 400px;
+  }
+  .textoContenido{
+ width: 100%;
+ height: auto;
+}
+
+.imagenContenido{
+  width: 100%;
+  height: auto;
+ }
+ .imagenContenido img{
+  width: 70%;
+  height: auto;
+}
+}
+
+
+.btn{
+  background-color: black;
+  padding: 5px;
+  border-radius: 30px;
+  margin: 30px;
+}
+
+.redes img{
+  width:10%;
+}
