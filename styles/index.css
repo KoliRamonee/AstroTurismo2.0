@@ -151,6 +151,8 @@ font-size: 30px;
   font-size: 3rem;
   font-weight: 300;
   color: black;
+  text-shadow: 2px 1px 2px rgb(255, 187, 0);
+  margin-bottom: 30px; 
 }
 
 .imagenContenido{
@@ -215,11 +217,11 @@ font-size: 30px;
   background-color: black;
   padding: 5px;
   border-radius: 30px;
-  margin: 30px;
 }
 
 .redes img{
-  width:10%;
+  width:15%;
+  margin-bottom: 30px;
 }
 
 footer {
