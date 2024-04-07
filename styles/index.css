@@ -4,9 +4,26 @@
     box-sizing: border-box;
     color: white;
     font-family: "Merriweather", serif;
-
+    overflow-x: hidden;
 }
 
+
+body::-webkit-scrollbar {
+  width: 12px; /* Ancho de la barra de desplazamiento */
+}
+
+body::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color de fondo*/
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #000000; /* Color de la barra de desplazamiento */
+  border-radius: 6px; 
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #2c0404; /* Cambio de color al pasar el mouse sobre el agarre */
+}
 
 body{
     width: 100%;
@@ -47,7 +64,7 @@ body{
     display: flex;
     font-size: 20px;
     list-style: none;
-    padding: 0;
+    padding: 5px;
     margin: 0;
     align-items: center; 
   }
@@ -55,24 +72,25 @@ body{
  .lista1 {
 margin-left: 25%;
 font-weight: 300;
-font-size: 30px;
+font-size: 25px;
 }
 
 .lista1 a {
     text-decoration: none; 
     position: relative; 
   }
-  
-  .lista1 a::after {
-    content: ''; 
-    position: absolute; 
-    bottom: -3px; 
-    left: 0; 
-    width: 0; 
-    height: 2px; 
-    background-color: white; 
-    transition: width 0.3s ease; 
+  .lista1 a::after,
+  .lista2 a::after {
+    content: '';
+    position: absolute;
+    bottom: 0; /* Cambiado de -1px a 0 */
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease;
   }
+  
   
   .lista1 a:hover::after {
     width: 100%; 
@@ -86,7 +104,7 @@ font-size: 30px;
 
   .lista1 li,
   .lista2 li {
-    margin: 5px 15px;
+    margin: 10px 15px;
   }
 
   .lista1 a,
@@ -147,13 +165,22 @@ font-size: 30px;
   display: block;
 }
 
+.parrafoPrincipal{
+font-size:1.3rem ;
+text-align: center;
+color: black;
+font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+}
+
 .textoContenido h2{
   text-align: center;
   font-size: 3rem;
-  font-weight: 300;
   color: black;
-  text-shadow: 2px 1px 2px rgb(255, 187, 0);
+  text-shadow: 2px 1px 1px rgb(255, 187, 0);
   margin-bottom: 30px; 
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
 }
 
 .imagenContenido{
@@ -231,52 +258,31 @@ font-size: 30px;
 
 footer {
   width: 100%;
-  top: 90%;
-  left: 60px;
-  overflow: hidden;
+  margin-top: 15%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
 }
 
-.Contacto {
-  color: rgb(255, 255, 255);
-  position:fixed;
-  top: 90%;
-  left: 2%;
-  font-family: 'Segoe UI';
-  font-weight: bolder;
-  font-size: 11px;
-  opacity: 1;
+
+.logo1{
+  width: 4rem;
+}
+
+.Contacto{
   text-align: center;
-  line-height: 1.5;
+  margin: 3rem;
+  margin-right:10px ;
+  font-size: 1rem;
+
 }
 
-.logo1 {
-  width: 4.5%;
-  position: fixed;
-  left: 48.5%;
-  bottom: 20px;
-}
-
-.copy {
-  width: 80px;
-  color: rgba(255,255,255,1);
-  position: fixed;
-  top: 91%;
-  left: 86.5%;
-  font-family: 'Segoe UI';
-  font-weight: bold;
-  font-size: 20px;
-  opacity: 1;
+.copy2{
   text-align: center;
-}
-.copy2 {
-  width: 120px;
-  color: rgba(255,255,255,1);
-  position: fixed;
-  top: 91%;
-  left:90.1%;
-  font-family: 'Segoe UI';
-  font-weight: Bold;
-  font-size: 11px;
-  opacity: 1;
-  text-align: left;
+  margin: 3rem;
+  margin-left: 10px;
+  font-size: 1rem;
 }
