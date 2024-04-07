@@ -112,7 +112,8 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-    overflow: auto;
+  overflow: auto;
+  margin-top:3%;
 }
 
 
@@ -150,7 +151,7 @@ display: block;
 text-align: center;
 font-size: 3rem;
 font-weight: 300;
-color: black;
+color: rgb(0, 0, 0);
 }
 
 .imagenContenido{
@@ -239,6 +240,58 @@ width:10%;
   font-size: 19px; 
   color: rgb(231, 171, 6);
   font-weight: bolder;
+}
+
+footer {
+  width: 1920px;
+  top: 680px;
+  left: 60px;
+  overflow: hidden;
+}
+
+.Contacto {
+  color: rgb(255, 255, 255);
+  position:absolute;
+  top: 91%;
+  left: 15px;
+  font-family: 'Segoe UI';
+  font-weight: bolder;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.logo1 {
+  width: 6%;
+  position: fixed;
+  left: 49%;
+  bottom: 20px;
+}
+
+.copy {
+  width: 80px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 91%;
+  left: 87%;
+  font-family: 'Segoe UI';
+  font-weight: bolder;
+  font-size: 12px;
+  opacity: 1;
+  text-align: center;
+}
+.copy2 {
+  width: 120px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 90%;
+  left:90.1%;
+  font-family: 'Segoe UI';
+  font-weight: Bolder;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
 }
 
   

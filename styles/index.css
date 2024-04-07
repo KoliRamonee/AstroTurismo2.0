@@ -113,9 +113,9 @@ font-size: 30px;
     justify-content: center;
     align-items: center;
       overflow: auto;
+    margin-top: 3%;
   }
   
-
   .contenido {
     width: 80vw;
     height: 25rem;
@@ -220,4 +220,56 @@ font-size: 30px;
 
 .redes img{
   width:10%;
+}
+
+footer {
+  width: 1920px;
+  top: 680px;
+  left: 60px;
+  overflow: hidden;
+}
+
+.Contacto {
+  color: rgb(255, 255, 255);
+  position:absolute;
+  top: 91%;
+  left: 15px;
+  font-family: 'Segoe UI';
+  font-weight: bolder;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.logo1 {
+  width: 6%;
+  position: fixed;
+  left: 49%;
+  bottom: 20px;
+}
+
+.copy {
+  width: 80px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 91%;
+  left: 87%;
+  font-family: 'Segoe UI';
+  font-weight: bolder;
+  font-size: 12px;
+  opacity: 1;
+  text-align: center;
+}
+.copy2 {
+  width: 120px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 90%;
+  left:90.1%;
+  font-family: 'Segoe UI';
+  font-weight: Bolder;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
 }
