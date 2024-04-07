@@ -167,7 +167,8 @@ font-size: 30px;
 
 .imagenContenido img{
   width: 70%;
-  height: auto;
+  height: 90%;
+  margin-top: 6%;
 }
 
 
