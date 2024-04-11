@@ -156,11 +156,9 @@ main {
   gap: 30px 30px;
   align-content: start;
   justify-content: center;
-  background-color: rgb(128, 128, 128,);
   margin-bottom: 15px;
 
 }
-
 
 .expandido {
   width: 500px;
@@ -187,24 +185,6 @@ main {
   transition: 1.5s;
 }
 
-@media screen and (max-width: 768px) {
-  .grid-container {
-    grid-template-columns: 80%;
-  }
-
-  .grid-container > div {
-    width: 100%;
-    height: 260px; 
-  }
-}
-
-.grid-container > div:hover{
-  transform: scale(1.1);
-  box-shadow: 5px 5px 10px 10px rgba(255, 254, 254, 0.432);
-
-}
-
-
 .grid-container > div > p {
   font-size: 15px;
   color: rgb(255, 255, 255);
@@ -213,6 +193,12 @@ main {
   padding-top: 1rem;
   align-content:space-between;
   align-items: center;  
+}
+
+.grid-container > div:hover{
+  transform: scale(1.1);
+  box-shadow: 5px 5px 10px 10px rgba(255, 254, 254, 0.432);
+
 }
 
 .sitio1{
@@ -316,3 +302,134 @@ footer {
   font-size: 1rem;
   margin-right: 20px;
 }
+
+/* MEDIA PARA SCREEN ENTRE 1150px y 1465px*/
+@media screen and (min-width:1150px) and (max-width: 1465px){
+  .grid-container {
+    grid-template-columns: 80%;
+    width: 100%;
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 30px 30px;
+    align-content: start;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+
+  .grid-container > div {
+    width: 300px;
+    height: 22vh;
+  }
+
+  .btn{
+    background-color: black;
+    padding: 5px;
+    border-radius: 30px;
+    position: fixed;
+    bottom: 10%;
+    right: 15%;
+  }
+  
+  .btn2{
+    background-color: black;
+    padding: 5px;
+    border-radius: 30px;
+    position: fixed;
+    bottom: 10%;
+    right: 15%;
+  }
+
+}
+
+/* MEDIA PARA SCREEN ENTRE 800px y 1150px*/
+@media screen and (min-width: 800px) and (max-width: 1150px) {
+  .grid-container {
+    grid-template-columns: 80%;
+    width: 100%;
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 240px 240px 240px ;
+    gap: 30px 30px;
+    align-content: start;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+
+  .grid-container > div {
+    width: 100%;
+    height: 240px; 
+  }
+
+  .btn{
+    background-color: black;
+    padding: 5px;
+    border-radius: 30px;
+    position: fixed;
+    bottom: 10%;
+    right: 15%;
+  }
+  
+  .btn2{
+    background-color: black;
+    padding: 5px;
+    border-radius: 30px;
+    position: fixed;
+    bottom: 10%;
+    right: 15%;
+  }
+
+}
+
+
+/* MEDIA PARA SCREEN HASTA 800px y 1150px*/
+@media screen and (max-width: 800px) {
+  .grid-container {
+    grid-template-columns: 80%;
+    width: 100%;
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 85%;
+    gap: 15px 15px;
+    align-content: start;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+
+  .grid-container > div {
+    width: 100%;
+    height: 240px; 
+  }
+  /*
+  .btn{
+    bottom: 10%;
+    right: 2%;
+  }
+  
+  .btn2{
+    bottom: 10%;
+    right: 5%;
+  }
+  */
+  .btn{
+    background-color: black;
+    padding: 5px;
+    border-radius: 30px;
+    position: fixed;
+    right: 10%;
+    bottom: 15%;
+  }
+  
+  .btn2{
+    background-color: black;
+    padding: 5px;
+    border-radius: 30px;
+    position: fixed;
+    left: 10%;
+    bottom: 15%;
+  }
+
+
+
+}
+
