@@ -121,6 +121,28 @@ main > h1 {
   margin-bottom: 15px;
 
 }
+.contenido {
+  width: 100vw;
+  height: 60vh;
+  background-color: transparent;
+}
+
+.pagina {
+  display: none;
+}
+
+.activa {
+  display: block;
+}
+
+.btn{
+  background-color: black;
+  padding: 5px;
+  border-radius: 30px;
+  position: fixed;
+  right: 10%;
+  bottom: 45%;
+}
 
 .grid-container { /*CONTENEDOR DE LUGARES EN FORMATO GRID*/
   width: 100%;
