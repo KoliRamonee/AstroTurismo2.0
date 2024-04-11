@@ -200,13 +200,16 @@ margin-top: 6%;
 
 @media (max-width: 768px) {
 .contenido {
-  display: block;
-  height: auto;
+      display: block;
+      height: 75vh;
+      font-size: 0.8rem;
 }
 .textoContenido{
-width: 100%;
-height: auto;
+   width: 100%;
+   height: auto;
+   margin-top: 20%
 }
+  
 
 .textoContenido h2{
 text-align: center;
@@ -221,14 +224,17 @@ height: auto;
 
 
 @media (max-width: 958px) {
-.contenido {
-  display: block;
-  height: 400px;
+  .contenido {
+    display: block;
+    height: 75vh;
+    font-size: 0.8rem;
 }
-.textoContenido{
-width: 100%;
-height: auto;
+  .textoContenido{
+ width: 100%;
+ height: auto;
+ margin-top: 20%
 }
+
 
 .imagenContenido{
 width: 100%;
