@@ -24,55 +24,60 @@ body{
   align-items: center;
   color: #fff;
 }
-  
-  
+
+
 .logo{
   width: 5em;
   margin-left: 15px;
 }
-  
-  
-.navbar{
+
+
+.navbar {
   display: flex;
   flex-grow: 1;
   justify-content: center;
 }
 
+
+
 .lista1,
-.lista2{
+.lista2 {
   display: flex;
   font-size: 20px;
   list-style: none;
-  padding: 0;
+  padding: 5px;
   margin: 0;
   align-items: center; 
 }
 
-.lista1{
-  margin-left: 25%;
-  font-weight: 300;
-  font-size: 30px;
+.lista1 {
+margin-left: 25%;
+font-weight: 300;
+font-size: 25px;
 }
 
 .lista1 a {
   text-decoration: none; 
   position: relative; 
 }
-
-.lista1 a::after {
-  content: ''; 
-  position: absolute; 
-  bottom: -3px; 
-  left: 0; 
-  width: 0; 
-  height: 2px; 
-  background-color: white; 
-  transition: width 0.3s ease; 
+.lista1 a::after,
+.lista2 a::after {
+  content: '';
+  position: absolute;
+  bottom: 0; /* Cambiado de -1px a 0 */
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s ease;
 }
+
 
 .lista1 a:hover::after {
   width: 100%; 
 }
+
+
 
 .lista2 {
   margin-left: auto;
@@ -80,7 +85,7 @@ body{
 
 .lista1 li,
 .lista2 li {
-  margin: 5px 15px;
+  margin: 10px 15px;
 }
 
 .lista1 a,
@@ -89,13 +94,14 @@ body{
   text-decoration: none;
 }
 
+
 #registro{
   background-color:white;
   color: black;
   padding: 10px;
   border-radius: 30px;
 }
-  
+
 #registro a{
   color: black;
 }
