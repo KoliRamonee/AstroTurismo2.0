@@ -171,11 +171,13 @@ font-size: 25px;
 
 .parrafoPrincipal{
 font-size:1.7rem ;
+line-height: 1.6;
 text-align: center;
 color: black;
 font-family: "Libre Baskerville", serif;
 font-weight: 400;
 text-shadow: 2px 1px 1px violet;
+margin-bottom: 5px;
 }
 
 .textoContenido h2{

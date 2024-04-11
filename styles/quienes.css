@@ -181,6 +181,7 @@ margin-bottom: 10px;
 .textoContenido u{
   color: black;
   font-size: 36px;
+  line-height: 2;
 }
 
 .imagenContenido{

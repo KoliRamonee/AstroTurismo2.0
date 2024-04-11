@@ -272,7 +272,11 @@ footer {
   position: fixed;
   bottom: 0;
 }
-  
+
+.logo1{
+  width: 4rem;
+}
+
 .Contacto{
   text-align: center;
   margin: 3rem;
