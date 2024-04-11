@@ -127,17 +127,16 @@ font-size: 25px;
 
   main {
     width: 100vw;
-    height: 30rem;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
       overflow: auto;
-    margin-top: 3%;
   }
   
   .contenido {
     width: 70vw;
-    height: 47vh;
+    height: 60vh;
     display: flex;
     background-color: #CFDAE8;
     margin: 10px;
@@ -166,7 +165,7 @@ font-size: 25px;
 }
 
 .parrafoPrincipal{
-font-size:1.3rem ;
+font-size:1.7rem ;
 text-align: center;
 color: black;
 font-family: "Libre Baskerville", serif;
@@ -259,7 +258,7 @@ text-shadow: 2px 1px 1px violet;
 
 footer {
   width: 100%;
-  margin-top: 15%;
+  margin: 0px 0px 10px 0px;
   height: auto;
   display: flex;
   justify-content: space-between;
@@ -275,15 +274,12 @@ footer {
 
 .Contacto{
   text-align: center;
-  margin: 3rem;
-  margin-right:10px ;
+  margin-left: 20px;
   font-size: 1rem;
-
 }
 
 .copy2{
   text-align: center;
-  margin: 3rem;
-  margin-left: 10px;
   font-size: 1rem;
+  margin-right: 20px;
 }
