@@ -38,8 +38,6 @@ body{
   justify-content: center;
 }
 
-
-
 .lista1,
 .lista2 {
   display: flex;
@@ -51,20 +49,22 @@ body{
 }
 
 .lista1 {
-margin-left: 25%;
-font-weight: 300;
-font-size: 25px;
+  margin-left: 25%;
+  font-weight: 300;
+  font-size: 25px;
 }
 
-.lista1 a {
+.lista1 a,
+.lista2 a {
   text-decoration: none; 
   position: relative; 
 }
+
 .lista1 a::after,
 .lista2 a::after {
   content: '';
   position: absolute;
-  bottom: 0; /* Cambiado de -1px a 0 */
+  bottom: 0;
   left: 0;
   width: 0;
   height: 2px;
@@ -72,12 +72,10 @@ font-size: 25px;
   transition: width 0.3s ease;
 }
 
-
-.lista1 a:hover::after {
+.lista1 a:hover::after,
+.lista1 a.subrayado-permanente::after {
   width: 100%; 
 }
-
-
 
 .lista2 {
   margin-left: auto;
@@ -162,6 +160,16 @@ main {
   margin-bottom: 15px;
 
 }
+
+
+.expandido {
+  width: 500px;
+  height: 500px;
+  grid-column: span 3; 
+  grid-row: span 3; 
+}
+
+
 
 .grid-container > div {
   display: inline;
