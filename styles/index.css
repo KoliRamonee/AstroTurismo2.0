@@ -136,8 +136,8 @@ font-size: 25px;
   }
   
   .contenido {
-    width: 80vw;
-    height: 28rem;
+    width: 70vw;
+    height: 47vh;
     display: flex;
     background-color: #CFDAE8;
     margin: 10px;
@@ -170,7 +170,8 @@ font-size:1.3rem ;
 text-align: center;
 color: black;
 font-family: "Libre Baskerville", serif;
-  font-weight: 400;
+font-weight: 400;
+text-shadow: 2px 1px 1px violet;
 }
 
 .textoContenido h2{
