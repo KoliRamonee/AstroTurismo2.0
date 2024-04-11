@@ -10,8 +10,7 @@
 body{
   width: 100%;
   height: 970px;
-  background-image: url("../images/backLugares.webp");
-  background-repeat: repeat-y;
+  background-image: url("../images/fondolug.jpg");
   background-size:cover;
   background-position: center;
   overflow-y: scroll; 
