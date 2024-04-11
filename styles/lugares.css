@@ -144,6 +144,15 @@ main > h1 {
   bottom: 45%;
 }
 
+.btn2{
+  background-color: black;
+  padding: 5px;
+  border-radius: 30px;
+  position: fixed;
+  left: 10%;
+  bottom: 45%;
+}
+
 .grid-container { /*CONTENEDOR DE LUGARES EN FORMATO GRID*/
   width: 100%;
   padding-top: 30px;
