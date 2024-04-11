@@ -185,19 +185,20 @@ margin-bottom: 10px;
 }
 
 .imagenContenido{
-width: 50%;
-height: 90%;
-justify-content: center;
-align-items: center;
-display: flex;
-
+  width: 80vh;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  margin-top: 3%;
 }
 
 .imagenContenido img{
-width: 70%;
-height: 90%;
-margin-top: 6%;
+  width: 70%;
+  height: 90%;
+  margin-top: 6%;
 }
+
 
 
 @media (max-width: 768px) {
