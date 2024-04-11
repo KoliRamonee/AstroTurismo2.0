@@ -271,6 +271,22 @@ main {
   background-image: url(../images/sitio14PlanetarioBA.jpeg);
 }
 
+.sitio15{
+  background-image: url(../images/sitio15ObservatorioUNLP.jpg);
+}
+
+.sitio16{
+  background-image: url(../images/sitio16SierraVentana.jpg);
+}
+
+.sitio17{
+  background-image: url(../images/sitio17ParqueLuro.jpg);
+}
+
+.sitio18{
+  background-image: url(../images/sitio18SalinasGrandes.webp);
+}
+
 /* INICIO FOOTER */
 
 footer {
