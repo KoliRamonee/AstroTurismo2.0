@@ -14,22 +14,15 @@
   <body>
     <!-- CONTENIDO GENERAL DEL HEADER INCLUYENDO AL MISMO NAVBAR DENTRO -->
     <header class="header">
-      <a href="index.html"><img class="logo" src="./images/logo1.png" alt=""></a>
-                         
-                   <!-- NAVBAR -->
-      <nav class="navbar">
-
-        <ul class="lista1">
+      <a href="index.html"><img class="logo" src="./images/logo1.png" alt=""></a>            
+      <ul class="lista1">
           <li><a href="quienes.html" >Quienes somos?</a></li>
           <li><a href="#" class="subrayado-permanente">Lugares</a></li>
         </ul>
-
         <ul class="lista2">
           <li><a href="">Iniciar sesión</a></li>
-          <li id="registro"><a href="">Registrarse gratis</a></li>
+          <li id="registro"><a href="">Registrate</a></li>
         </ul>
-
-      </nav>
     </header>
     <main>
       <!-- INICIO DE LISTA-->
@@ -68,6 +61,7 @@
       </div>
       <!--SEGUNDO CONTENIDO DEL DIV ↓-->
       <div id="pagina2" class="pagina">
+        <button class="btn2" onclick="mostrarPagina('pagina1')">←</button>
         <div id="listaLugares2" class="grid-container">
           <div class="sitio10"  onclick="expandirCard(this)">
             <p>MISIONES - Villa Salto Encantado<br>Parque Provincial Salto Encantado</p>
@@ -97,7 +91,6 @@
             <p>JUJUY - Salinas Grandes</p>
           </div>
         </div>
-        <button class="btn2" onclick="mostrarPagina('pagina1')">←</button>
       </div>
     </div>
 

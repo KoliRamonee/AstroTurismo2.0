@@ -1,139 +1,96 @@
+/*BODY*/
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    color: white;
-    font-family: "Merriweather", serif;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Merriweather", serif;
 }
-
-
-body::-webkit-scrollbar {
-  width: 12px; /* Ancho de la barra de desplazamiento */
-}
-
-body::-webkit-scrollbar-track {
-  background: #f1f1f1; /* Color de fondo*/
-}
-
-body::-webkit-scrollbar-thumb {
-  background: #000000; /* Color de la barra de desplazamiento */
-  border-radius: 6px; 
-}
-
-body::-webkit-scrollbar-thumb:hover {
-  background: #2c0404; /* Cambio de color al pasar el mouse sobre el agarre */
-}
-
 body{
-    width: 100%;
-    height: 98.5vh;
-    background-image: url(../images/fondolug.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+  width: 98vw;
+  height: 98.3vh;
+  background-image: url(../images/fondolug.jpg);
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-position: center;
+} 
 
 
+/*HEADER*/
 .header {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #fff;
-  }
-
-  
-  .logo{
-    width: 5em;
-    margin-left: 15px;
-  }
-
-
-  .navbar {
-    display: flex;
-    flex-grow: 1;
-    justify-content: center;
-  }
-
-  
-  
-  .lista1,
-  .lista2 {
-    display: flex;
-    font-size: 20px;
-    list-style: none;
-    padding: 5px;
-    margin: 0;
-    align-items: center; 
-  }
-
- .lista1 {
-margin-left: 25%;
-font-weight: 300;
-font-size: 25px;
+  width: 98vw;
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  width: 4.2em;
+  opacity: 80%;
+}
+header > ul {
+  list-style: none;
+  padding: 1rem;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lista1 {
+  font-weight: 450;
+  font-size: 2.5vh;
+  margin-left: 10vw;
+  text-shadow: 2px 2px 2px rgb(138, 26, 138);
+}
+.lista2 {
+  font-weight: 450;
+  font-size: 2.5vh;
+}
+.lista1 li,
+.lista2 li {
+  margin: 0.5vh;
+}
+.lista1 a,
+.lista2 a {
+  text-decoration: none; 
+  position: relative; 
+  color: #fff;
+  text-decoration: none;
+}
+#registro{
+  background-color:rgb(255, 255, 255, 0.6);
+  color: black;
+  padding:0.8vh;
+  border-radius: 1rem;
+}
+#registro a{
+  color: black;
+}
+.lista1 a::after,
+.lista2 a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s ease;
+  opacity: 65%;
+}
+.lista1 a:hover::after,
+.lista1 a.subrayado-permanente::after {
+  width: 100%; 
 }
 
-.lista1 a {
-    text-decoration: none; 
-    position: relative; 
-  }
-  .lista1 a::after,
-  .lista2 a::after {
-    content: '';
-    position: absolute;
-    bottom: 0; /* Cambiado de -1px a 0 */
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-color: white;
-    transition: width 0.3s ease;
-  }
-  
-  
-  .lista1 a:hover::after {
-    width: 100%; 
-  }
-  
 
-
-  .lista2 {
-    margin-left: auto;
-  }
-
-  .lista1 li,
-  .lista2 li {
-    margin: 10px 15px;
-  }
-
-  .lista1 a,
-  .lista2 a {
-    color: #fff;
-    text-decoration: none;
-  }
-
-
-  #registro{
-    background-color:white;
-    color: black;
-    padding: 10px;
-    border-radius: 30px;
-  }
-
-  #registro a{
-    color: black;
-  }
-
-  main {
-    width: 100vw;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-      overflow: auto;
-  }
-  
-  .contenido {
+/*MAIN*/
+main {
+  width: 98vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+.contenido {
     width: 70vw;
     height: 60vh;
     display: flex;
@@ -145,9 +102,7 @@ font-size: 25px;
     border-bottom-left-radius: 10px;
     box-shadow: 5px 5px 20px rgba(127, 126, 126, 0.681); 
     opacity: 70%;
-  }
-  
-
+}
 .textoContenido {
   width: 50%;
   height: auto;
@@ -156,18 +111,13 @@ font-size: 25px;
   justify-content: center;
   text-align: center;
 }
-
-
-
 .pagina {
   display: none;
   margin:10%;
 }
-
 .activa {
   display: block;
 }
-
 .parrafoPrincipal{
 font-size:1.7rem ;
 line-height: 1.6;
@@ -178,7 +128,6 @@ font-weight: 400;
 text-shadow: 2px 1px 1px violet;
 margin-bottom: 5px;
 }
-
 .textoContenido h2{
   text-align: center;
   font-size: 3rem;
@@ -188,7 +137,6 @@ margin-bottom: 5px;
   font-family: "Libre Baskerville", serif;
   font-weight: 400;
 }
-
 .imagenContenido{
   width: 80vh;
   height: 50vh;
@@ -197,74 +145,23 @@ margin-bottom: 5px;
   display:flex;
   margin-top: 3%;
 }
-
 .imagenContenido img{
   width: 70%;
   height: 90%;
   margin-top: 6%;
 }
-
-
-@media (max-width: 768px) {
-  .contenido {
-    display: block;
-    height: 75vh;
-    font-size: 0.8rem;
-}
-  .textoContenido{
- width: 100%;
- height: auto;
-}
-
-.textoContenido h2{
-  text-align: center;
-  font-size: 2em;
-}
-
-.imagenContenido{
-  width: 100%;
-  height: auto;
- }
- .main{ 
-  height: auto;
- }
-}
-
-
-@media (max-width: 958px) {
-  .contenido {
-    display: block;
-    height: 75vh;
-    font-size: 0.8rem;
-}
-  .textoContenido{
- width: 100%;
- height: auto;
- margin-top: 20%
-}
-
-.imagenContenido{
-  width: 100%;
-  height: auto;
- }
- .imagenContenido img{
-  width: 70%;
-  height: auto;
-}
-}
-
-
 .btn{
   background-color: black;
   padding: 5px;
   border-radius: 30px;
 }
-
 .redes img{
   width:15%;
   margin-bottom: 30px;
 }
 
+
+/*FOOTER*/
 footer {
   width: 100%;
   margin: 0px 0px 10px 0px;
@@ -275,20 +172,220 @@ footer {
   position: fixed;
   bottom: 0;
 }
-
-
 .logo1{
   width: 4rem;
 }
-
 .Contacto{
   text-align: center;
   margin-left: 20px;
   font-size: 1rem;
 }
-
 .copy2{
   text-align: center;
   font-size: 1rem;
   margin-right: 20px;
+}
+
+
+/* MEDIA PARA SCREEN 1465px*/
+@media screen and (max-width: 1465px){
+  body{
+    width: 98vw;
+    height: 98vh;
+    background-image: url(../images/fondolug.jpg);
+    background-position: center; 
+    background-size:auto;
+  }
+  .header ul{
+    padding: 1vw;
+  }
+  .logo{
+    opacity: 80%;
+  }
+  .lista1 {
+    font-weight: 450;
+    font-size: 2.5vh;
+    display: flex;
+    margin-left: 0vh;
+  }
+  .lista2 {
+    font-weight: 450;
+    font-size: 2.5vh;
+    display: flex;
+    margin-right: 0vh;
+  }
+
+  .contenido {
+    width: 70vw;
+    height: 70vh;
+    display: flex;
+    background-color: #CFDAE8;
+    margin: 10px;
+    border-bottom-right-radius: 80px;
+    border-top-right-radius: 80px;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    box-shadow: 5px 5px 20px rgba(127, 126, 126, 0.681); 
+    opacity: 70%;
+}
+  .textoContenido{
+  width: 100%;
+  height: auto;
+  }
+
+  .textoContenido h2{
+  text-align: center;
+  font-size: 2em;
+  }
+
+  .imagenContenido{
+  width: 99vw;
+  height: 50vh;
+  }
+
+  .btn{
+    background-color: black;
+    padding: 5px;
+    border-radius: 30px;
+    position: fixed;
+    right: 32%;
+    bottom: 20%;
+    width: 5vh;
+    height: 5vh;
+  }
+  .footer{
+    width: 98vw;
+    height: 7.6vh;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 1.3vh;
+    margin: 1vh;
+  }
+  .logo1{
+    width: 3.9rem;
+    margin-bottom: 10px;
+  }
+  .Contacto{
+    text-align: center;
+    margin-left: 20px;
+    font-size: 0.8rem;
+    text-shadow: 1px 1px 1px rgb(253, 199, 2);
+  }
+  .copy2{
+    text-align: center;
+    font-size: 0.8rem;
+    margin-right: 20px;
+    text-shadow: 1px 1px 1px rgb(223, 175, 0);
+  }
+}
+/* MEDIA PARA SCREEN 800px*/
+@media screen and (max-width: 850px) { 
+  body{
+    width: 98vw;
+    height: 98vh;
+    background-image: url(../images/fondolug.jpg);
+    background-position: center; 
+    background-size:auto;
+  }
+  .header ul{
+    padding: 1vw;
+  }
+  .logo{
+    opacity: 80%;
+  }
+  .lista1 {
+    font-weight: 450;
+    font-size: 2vh;
+    display: flex;
+    margin-left: 0vh;
+  }
+  .lista2 {
+    font-weight: 450;
+    font-size: 1.5vh;
+    display: flex;
+    margin-right: 0vh;
+  }
+
+  .contenido {
+    width: 70vw;
+    height: 70vh;
+    display: flex;
+    background-color: #CFDAE8;
+    margin: 10px;
+    border-bottom-right-radius: 80px;
+    border-top-right-radius: 80px;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    box-shadow: 5px 5px 20px rgba(127, 126, 126, 0.681); 
+    opacity: 70%;
+}
+  .textoContenido{
+  width: 100%;
+  height: auto;
+  }
+
+  .textoContenido h2{
+  text-align: center;
+  font-size: 2em;
+  }
+
+  .imagenContenido{
+  width: 100%;
+  height: auto;
+  display: none;
+  }
+
+  .btn{
+    background-color: black;
+    padding: 5px;
+    border-radius: 30px;
+    position: fixed;
+    right: 46%;
+    bottom: 17%;
+    width: 4vh;
+    height: 4vh;
+  }
+  .footer{
+    width: 98vw;
+    height: 7.6vh;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 1.3vh;
+    margin: 1vh;
+  }
+  .logo1{
+    width: 3.9rem;
+    margin-bottom: 10px;
+  }
+  .Contacto{
+    text-align: center;
+    margin-left: 20px;
+    font-size: 0.8rem;
+    text-shadow: 1px 1px 1px rgb(253, 199, 2);
+  }
+  .copy2{
+    text-align: center;
+    font-size: 0.8rem;
+    margin-right: 20px;
+    text-shadow: 1px 1px 1px rgb(223, 175, 0);
+  }
+}
+/* MEDIA PARA SCREEN 380px*/
+@media screen and (max-width: 380px){
+    .textoContenido h2{
+    text-align: center;
+    font-size: 1.7em;
+    }
+    .parrafoPrincipal{
+      font-size:1.4rem ;
+      line-height: 1.3;
+      text-align: center;
+      color: black;
+      font-family: "Libre Baskerville", serif;
+      font-weight: 400;
+      text-shadow: 2px 1px 1px violet;
+      margin-bottom: 5px;
+      }
 }
