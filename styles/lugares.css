@@ -12,6 +12,8 @@ body{
   background-size: cover;
   background-position: center;
 } 
+
+/*HEADER*/
 .header {
   width: 98vw;
   height: 8vh;
@@ -78,7 +80,7 @@ header > ul {
 }
 
 
-/* INICIO LISTA DE LUGARES/SITIOS */
+/*MAIN*/
 main {
   width: 98vw;
   height: 80vh;
@@ -102,12 +104,11 @@ main {
   width: 100%;
   padding-top: 30px;
   display: grid;
-  grid-template-columns: 350px 350px 350px ;
-  gap: 30px 30px;
-  align-content: start;
+  grid-template-columns: 250px 250px 250px;
+  gap: 1vh 1vw;
+  align-content: center;
   justify-content: center;
   margin-bottom: 15px;
-
 }
 .expandido {
   width: 500px;
@@ -219,16 +220,17 @@ main {
   height: 5vh;
 }
 
-/* INICIO FOOTER */
+/*FOOTER*/
 
 footer {
-  width: 98vw;
-  height: 7.6vh;
+  width: 100%;
+  margin: 0px 0px 10px 0px;
+  height: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  bottom: 1.3vh;
+  bottom: 0;
 }
 .logo1{
   width: 4rem;
@@ -243,6 +245,7 @@ footer {
   font-size: 1rem;
   margin-right: 20px;
 }
+
 
 /* MEDIA PARA SCREEN 1465px*/
 @media screen and (max-width: 1465px){
