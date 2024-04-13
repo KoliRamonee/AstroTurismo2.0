@@ -103,7 +103,7 @@
   }
   .textoContenido {
   width: 50%;
-  height: auto;
+  height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -118,22 +118,44 @@
   }
   .textoContenido h2{
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
   color: black;
   text-shadow: 2px 1px 1px rgb(255, 187, 0);
-  margin-bottom: 30px; 
+  margin-bottom: 30px;
   font-family: "Libre Baskerville", serif;
   font-weight: 400;
   }
   .textoContenido u{
     color: black;
-    font-size:1.6em ;
-    line-height: 3;
+    font-size:1.4em ;
     text-align: center;
     font-family: "Libre Baskerville", serif;
     font-weight: 400;
     text-shadow: 2px 1px 1px violet;
-    margin-bottom: 4px;
+  }
+    .texto{
+      font-size: 1.3em; 
+      color:rgb(0, 0, 0);
+      line-height: 1.1;
+      padding-top: 3%;
+      padding-left: 2%;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+      font-family: "Libre Baskerville", serif;
+      font-weight: 400;
+  }
+  .parra{
+      font-size:1.3rem ;
+      color:black;
+      line-height: 1.6;
+      text-shadow: 2px 2px 4px rgb(158, 3, 206);
+      font-family: "Libre Baskerville", serif;
+      font-weight: 400;
+  }
+  .vivi{
+    font-size: 1.5em; 
+    color: rgb(231, 171, 6);
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px rgb(255, 0, 0);
   }
   .imagenContenido{
     width: 80vh;
@@ -157,30 +179,7 @@
     width:15%;
     margin-bottom: 30px;
   }
-  .texto{
-      font-size: 1.5em; 
-      color:rgb(0, 0, 0);
-      line-height: 1.3;
-      padding-top: 3%;
-      padding-left: 2%;
-      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-      font-family: "Libre Baskerville", serif;
-      font-weight: 400;
-  }
-  .parra{
-      font-size:2rem ;
-      color:black;
-      line-height: 1.6;
-      text-shadow: 2px 2px 4px rgb(158, 3, 206);
-      font-family: "Libre Baskerville", serif;
-      font-weight: 400;
-  }
-  .vivi{
-    font-size: 20px; 
-    color: rgb(231, 171, 6);
-    font-weight: bolder;
-    text-shadow: 2px 2px 2px rgb(255, 0, 0);
-  }
+
 
 
 /*FOOTER*/
@@ -282,7 +281,7 @@
   .parra{
     font-size:2em ;
     color:black;
-    line-height: 2;
+    line-height: 1;
     text-shadow: 2px 2px 4px rgb(158, 3, 206);
     font-family: "Libre Baskerville", serif;
     font-weight: 400;
