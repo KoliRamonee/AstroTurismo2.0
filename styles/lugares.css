@@ -102,7 +102,7 @@ main {
 }
 .grid-container { /*CONTENEDOR DE LUGARES EN FORMATO GRID*/
   width: 100%;
-  padding-top: 30px;
+  padding-top: 70px;
   display: grid;
   grid-template-columns: 250px 250px 250px;
   gap: 1vh 1vw;
@@ -219,7 +219,96 @@ main {
   width: 5vh;
   height: 5vh;
 }
-
+.btn3{
+  background-color: black;
+  padding: 1px;
+  border-radius: 30px;
+  position: fixed;
+  right: 48%;
+  bottom: 11%;
+  width: 5vh;
+  height: 5vh;
+}
+.tarjeta {
+  border-radius: 20px;
+  display: none; /* Oculta la tarjeta por defecto */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  height: 60vh;
+  width: 50vw;
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+.contenido-tarjeta h3{
+  color: black;
+  font-size: 3vh;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgb(235, 231, 0);
+}
+.contenido-tarjeta p{
+  color: black;
+  font-size: 2.5vh;
+  text-align: center;
+  text-shadow: 1px 1px 2px violet;
+}
+#tarjeta1{
+  background-image: url(../images/sitio1elLeoncito.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#tarjeta2{
+  background-image: url(../images/sitio2lasOvejasNeuquen.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#tarjeta3{
+  background-image: url(../images/sitio3PuntaPALP.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#tarjeta4{
+  background-image: url(../images/sitio4PlanetarioMalargue2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#tarjeta5{
+  background-image: url(../images/sitio5puestoPavon.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#tarjeta6{
+  background-image: url(../images/sitio6ObservatorioUNC.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#tarjeta7{
+  background-image: url(../images/sitio7CerroChampaqui.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#tarjeta8{
+  background-image: url(../images/sitio8Ampimpa.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#tarjeta9{
+  background-image: url(../images/sitio9EsterosIbera.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /*FOOTER*/
 
 footer {
