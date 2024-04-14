@@ -244,6 +244,7 @@ main {
   width: 50vw;
   z-index: 1000; /* Asegura que esté por encima de otros elementos */
 }
+
 .contenido-tarjeta h3{
   color: black;
   font-size: 3vh;
@@ -256,6 +257,21 @@ main {
   text-align: center;
   text-shadow: 1px 1px 2px violet;
 }
+
+.contenido-tarjeta {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.contenido-tarjeta > iframe {
+  height: 25vh;
+  width: 40vw;
+}
+
 
 /*Tarjetas por separado*/
 #tarjeta1{
@@ -555,6 +571,49 @@ footer {
     width: 5vh;
     height: 5vh;
   }
+
+  .tarjeta {
+    border-radius: 20px;
+    display: none; /* Oculta la tarjeta por defecto */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    height: 80vh;
+    width: 80vw;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+  }
+  
+  .contenido-tarjeta h3{
+    color: black;
+    font-size: 3vh;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgb(235, 231, 0);
+  }
+  .contenido-tarjeta p{
+    color: black;
+    font-size: 2.0vh;
+    text-align: center;
+    text-shadow: 1px 1px 2px violet;
+  }
+  
+  .contenido-tarjeta {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .contenido-tarjeta > iframe {
+    height: 25vh;
+    width: 40vw;
+  }
+
   .footer{
     width: 98vw;
     height: 7.6vh;
