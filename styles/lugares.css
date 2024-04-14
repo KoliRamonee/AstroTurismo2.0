@@ -3,7 +3,6 @@
   color: white;
   font-family: "Merriweather", serif;
 }
-  
 body{
   width: 98vw;
   height: 98.3vh;
@@ -244,20 +243,19 @@ main {
   width: 65vw;
   z-index: 1000; /* Asegura que esté por encima de otros elementos */
 }
-
 .contenido-tarjeta h3{
-  color: black;
+  color: rgb(255, 167, 5);
   font-size: 3vh;
   text-align: center;
-  text-shadow: 1px 1px 3px rgb(235, 231, 0);
+  text-shadow: 1px 1px 3px rgb(252, 82, 3);
 }
 .contenido-tarjeta p{
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 2.5vh;
   text-align: center;
-  text-shadow: 1px 1px 2px violet;
+  text-shadow: 1px 1px 3px rgb(252, 82, 3);
+  margin-top: 5vh;
 }
-
 .contenido-tarjeta {
   display: flex;
   flex-direction: column;
@@ -266,10 +264,10 @@ main {
   justify-content: space-evenly;
   align-items: center;
 }
-
 .contenido-tarjeta > iframe {
-  height: 25vh;
+  height: 22vh;
   width: 40vw;
+  margin-top: -2vh;
 }
 
 
@@ -411,6 +409,7 @@ footer {
 }
 
 
+
 /* MEDIA PARA SCREEN 1465px*/
 @media screen and (max-width: 1465px){
   body{
@@ -504,9 +503,7 @@ footer {
     margin-right: 20px;
     text-shadow: 1px 1px 1px rgb(223, 175, 0);
   }
-
 }
-
 /* MEDIA PARA SCREEN 800px*/
 @media screen and (max-width: 850px) { 
   body{
@@ -571,6 +568,16 @@ footer {
     width: 5vh;
     height: 5vh;
   }
+  .btn3{
+    background-color: black;
+    padding: 1px;
+    border-radius: 30px;
+    position: fixed;
+    right: 43%;
+    bottom: 2%;
+    width: 5vh;
+    height: 5vh;
+  }
 
   .tarjeta {
     border-radius: 20px;
@@ -588,16 +595,17 @@ footer {
   }
   
   .contenido-tarjeta h3{
-    color: black;
+    color: rgb(255, 167, 5);
     font-size: 3vh;
     text-align: center;
-    text-shadow: 1px 1px 3px rgb(235, 231, 0);
+    text-shadow: 1px 1px 3px rgb(252, 82, 3);
   }
   .contenido-tarjeta p{
-    color: black;
-    font-size: 2.0vh;
+    color: rgb(255, 255, 255);
+    font-size: 2.5vh;
     text-align: center;
-    text-shadow: 1px 1px 2px violet;
+    text-shadow: 1px 1px 3px rgb(252, 82, 3);
+    margin-top: 5vh;
   }
   
   .contenido-tarjeta {
@@ -610,8 +618,8 @@ footer {
   }
   
   .contenido-tarjeta > iframe {
-    height: 25vh;
-    width: 75vw;
+    height: 20vh;
+    width: 70vw;
   }
 
   .footer{
@@ -641,3 +649,33 @@ footer {
   }
 }
 
+
+
+/* MEDIA PARA TEXTO TARJETA */
+@media screen and (max-width:1220px){
+  .contenido-tarjeta p{
+    color: rgb(255, 255, 255);
+    font-size: 2.1vh;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgb(252, 82, 3);
+    margin-top: 5vh;
+  }
+}
+@media screen and (max-width:630px){
+  .contenido-tarjeta p{
+    color: rgb(255, 255, 255);
+    font-size: 1.8vh;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgb(252, 82, 3);
+    margin-top: 5vh;
+  }
+}
+@media screen and (max-width:360px){
+  .contenido-tarjeta p{
+    color: rgb(255, 255, 255);
+    font-size: 1.6vh;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgb(252, 82, 3);
+    margin-top: 5vh;
+  }
+}
