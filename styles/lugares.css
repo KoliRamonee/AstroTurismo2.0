@@ -309,6 +309,60 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#tarjeta10{
+  background-image: url(../images/sitio10SaltoEncantado.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#tarjeta11{
+  background-image: url(../images/sitio11PlanetarioAconquija.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#tarjeta12{
+  background-image: url(../images/sitio12SalinasGualicho.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#tarjeta13{
+  background-image: url(../images/sitio13CampoDelCielo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#tarjeta14{
+  background-image: url(../images/sitio14PlanetarioBA.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#tarjeta15{
+  background-image: url(../images/sitio15ObservatorioUNLP.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#tarjeta16{
+  background-image: url(../images/sitio16SierraVentana.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#tarjeta17{
+  background-image: url(../images/sitio17ParqueLuro.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#tarjeta18{
+  background-image: url(../images/sitio18SalinasGrandes.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /*FOOTER*/
 
 footer {
