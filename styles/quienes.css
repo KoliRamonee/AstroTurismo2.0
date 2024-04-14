@@ -453,6 +453,31 @@
 }
 /* MEDIA PARA SCREEN 390px*/
 @media screen and (max-width: 390px){
+  body{
+    width: 98vw;
+    height: 98vh;
+    background-image: url(../images/fondolug.jpg);
+    background-position: center; 
+    background-size:auto;
+  }
+  .header ul{
+    padding: 1vw;
+  }
+  .logo{
+    opacity: 80%;
+  }
+  .lista1 {
+    font-weight: 450;
+    font-size: 2vh;
+    display: flex;
+    margin-left: 0vh;
+  }
+  .lista2 {
+    font-weight: 450;
+    font-size: 1.5vh;
+    display: flex;
+    margin-right: 0vh;
+  }
   .contenido {
     width: 70vw;
     height: 75vh;
