@@ -240,8 +240,8 @@ main {
   background-color: white;
   padding: 20px;
   border: 1px solid #ccc;
-  height: 60vh;
-  width: 50vw;
+  height: 75vh;
+  width: 65vw;
   z-index: 1000; /* Asegura que esté por encima de otros elementos */
 }
 
@@ -611,7 +611,7 @@ footer {
   
   .contenido-tarjeta > iframe {
     height: 25vh;
-    width: 40vw;
+    width: 75vw;
   }
 
   .footer{
