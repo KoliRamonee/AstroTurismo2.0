@@ -1,0 +1,344 @@
+/*BODY*/
+*{
+    box-sizing: border-box;
+    color: white;
+    font-family: "Merriweather", serif;
+  }
+  body{
+    width: 98vw;
+    height: 98.3vh;
+    background-image: url(../images/fondolug.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
+  } 
+  
+  
+  /*HEADER*/
+  .header {
+    width: 98vw;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo{
+    width: 4.2em;
+    opacity: 80%;
+  }
+  header > ul {
+    list-style: none;
+    padding: 1rem;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .lista1 {
+    font-weight: 450;
+    font-size: 2.5vh;
+    margin-left: 10vw;
+    text-shadow: 2px 2px 2px rgb(138, 26, 138);
+  }
+  .lista2 {
+    font-weight: 450;
+    font-size: 2.5vh;
+  }
+  .lista1 li,
+  .lista2 li {
+    margin: 0.5vh;
+  }
+  .lista1 a,
+  .lista2 a {
+    text-decoration: none; 
+    position: relative; 
+    color: #fff;
+    text-decoration: none;
+  }
+  #registro{
+    background-color:rgb(255, 255, 255, 0.6);
+    color: black;
+    padding:0.8vh;
+    border-radius: 1rem;
+  }
+  #registro a{
+    color: black;
+  }
+  .lista1 a::after,
+  .lista2 a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease;
+    opacity: 65%;
+  }
+  .lista1 a:hover::after,
+  .lista1 a.subrayado-permanente::after {
+    width: 100%; 
+  }
+  
+  
+  
+  /*FOOTER*/
+  footer {
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+  }
+  .logo1{
+    width: 4rem;
+  }
+  .Contacto{
+    text-align: center;
+    margin-left: 20px;
+    font-size: 1rem;
+  }
+  .copy2{
+    text-align: center;
+    font-size: 1rem;
+    margin-right: 20px;
+  }
+  
+  
+  /* MEDIA PARA SCREEN 1465px*/
+  @media screen and (max-width: 1465px){
+    body{
+      width: 98vw;
+      height: 98vh;
+      background-image: url(../images/fondolug.jpg);
+      background-position: center; 
+      background-size:auto;
+    }
+    .header ul{
+      padding: 1vw;
+    }
+    .logo{
+      opacity: 80%;
+    }
+    .lista1 {
+      font-weight: 450;
+      font-size: 2.5vh;
+      display: flex;
+      margin-left: 0vh;
+    }
+    .lista2 {
+      font-weight: 450;
+      font-size: 2.5vh;
+      display: flex;
+      margin-right: 0vh;
+    }
+  
+    .contenido {
+      width: 70vw;
+      height: 70vh;
+      display: flex;
+      background-color: #CFDAE8;
+      margin: 10px;
+      border-bottom-right-radius: 80px;
+      border-top-right-radius: 80px;
+      border-top-left-radius: 80px;
+      border-bottom-left-radius: 80px;
+      box-shadow: 5px 5px 20px rgba(127, 126, 126, 0.681); 
+      opacity: 70%;
+  }
+    .textoContenido{
+    width: 100%;
+    height: auto;
+    }
+  
+    .textoContenido h2{
+    text-align: center;
+    font-size: 2em;
+    }
+  
+    .imagenContenido{
+    width: 99vw;
+    height: 50vh;
+    }
+  
+    .btn{
+      background-color: black;
+      padding: 5px;
+      border-radius: 30px;
+      position: fixed;
+      right: 32%;
+      bottom: 20%;
+      width: 5vh;
+      height: 5vh;
+    }
+    .footer{
+      width: 98vw;
+      height: 7.6vh;
+      display: flex;
+      justify-content: space-between;
+      position: fixed;
+      bottom: 1.3vh;
+      margin: 1vh;
+    }
+    .logo1{
+      width: 3.9rem;
+      margin-bottom: 10px;
+    }
+    .Contacto{
+      text-align: center;
+      margin-left: 20px;
+      font-size: 0.8rem;
+      text-shadow: 1px 1px 1px rgb(253, 199, 2);
+    }
+    .copy2{
+      text-align: center;
+      font-size: 0.8rem;
+      margin-right: 20px;
+      text-shadow: 1px 1px 1px rgb(223, 175, 0);
+    }
+  }
+  /* MEDIA PARA SCREEN 800px*/
+  @media screen and (max-width: 850px) { 
+    body{
+      width: 98vw;
+      height: 98vh;
+      background-image: url(../images/fondolug.jpg);
+      background-position: center; 
+      background-size:auto;
+    }
+    .header ul{
+      padding: 1vw;
+    }
+    .logo{
+      opacity: 80%;
+    }
+    .lista1 {
+      font-weight: 450;
+      font-size: 2vh;
+      display: flex;
+      margin-left: 0vh;
+    }
+    .lista2 {
+      font-weight: 450;
+      font-size: 1.5vh;
+      display: flex;
+      margin-right: 0vh;
+    }
+  
+    .contenido {
+      width: 70vw;
+      height: 70vh;
+      display: flex;
+      background-color: #CFDAE8;
+      margin: 10px;
+      border-bottom-right-radius: 80px;
+      border-top-right-radius: 80px;
+      border-top-left-radius: 80px;
+      border-bottom-left-radius: 80px;
+      box-shadow: 5px 5px 20px rgba(127, 126, 126, 0.681); 
+      opacity: 70%;
+  }
+    .textoContenido{
+    width: 100%;
+    height: auto;
+    }
+  
+    .textoContenido h2{
+    text-align: center;
+    font-size: 2em;
+    }
+  
+    .imagenContenido{
+    width: 100%;
+    height: auto;
+    display: none;
+    }
+  
+    .btn{
+      background-color: black;
+      padding: 5px;
+      border-radius: 30px;
+      position: fixed;
+      right: 46%;
+      bottom: 17%;
+      width: 4vh;
+      height: 4vh;
+    }
+    .footer{
+      width: 98vw;
+      height: 7.6vh;
+      display: flex;
+      justify-content: space-between;
+      position: fixed;
+      bottom: 1.3vh;
+      margin: 1vh;
+    }
+    .logo1{
+      width: 3.9rem;
+      margin-bottom: 10px;
+    }
+    .Contacto{
+      text-align: center;
+      margin-left: 20px;
+      font-size: 0.8rem;
+      text-shadow: 1px 1px 1px rgb(253, 199, 2);
+    }
+    .copy2{
+      text-align: center;
+      font-size: 0.8rem;
+      margin-right: 20px;
+      text-shadow: 1px 1px 1px rgb(223, 175, 0);
+    }
+  }
+  /* MEDIA PARA SCREEN 380px*/
+  @media screen and (max-width: 380px){
+      .textoContenido h2{
+      text-align: center;
+      font-size: 1.7em;
+      }
+      .parrafoPrincipal{
+        font-size:1.4rem ;
+        line-height: 1.3;
+        text-align: center;
+        color: black;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 400;
+        text-shadow: 2px 1px 1px violet;
+        margin-bottom: 5px;
+        }
+  }
+
+
+
+  .main{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .formulario{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .formulario{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .formulario h2{
+    background-color: rgb(180, 107, 107);
+    color: black;
+  }
