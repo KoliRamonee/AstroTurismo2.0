@@ -116,8 +116,19 @@
     margin-bottom: 20px; 
     padding: 8px;
     color: rgb(255, 255, 255);
-    background-color: rgb(255, 153, 0, 0.452);
-  } 
+    background-color: rgba(255, 153, 0, 0.452);
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    text-shadow: 1px 1px 2px blueviolet;
+  }
+  input::placeholder{
+    color:rgba(255, 255, 255, 0.829);
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px rgba(255, 0, 98, 0.733);
+  }
   form label {
     display: flex;
     justify-content: start;
