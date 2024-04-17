@@ -13,6 +13,8 @@ body {
   background-position: center;
 }
 
+
+
 /*HEADER*/
 .header {
   width: 98vw;
@@ -79,6 +81,65 @@ header > ul {
   width: 100%;
 }
 
+
+
+/*MAIN*/
+main {
+  width: 98vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+main h2 {
+  background-color: rgb(0, 0, 0);
+  color: white; 
+  border-radius: 2vh;
+  padding: 1vh;
+}
+form {
+  border: solid rgb(255, 166, 0) 5px;
+  padding: 15px;
+  border-radius: 2vh;
+  width: 30rem;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-bottom: 2rem;
+  background-color: transparent;
+}
+input{
+  width: 100%;
+  border: solid rgb(255, 166, 0);
+  border-radius: 2vh;
+  margin-top: 10px;
+  margin-bottom: 20px; 
+  padding: 8px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 153, 0, 0.452);
+}
+form label {
+  display: flex;
+  justify-content: start;
+  width: 10vw;
+  color: black;
+  font-weight: 700;
+  background-color: rgba(240, 255, 255, 0.788); 
+  border-radius: 2vh;
+  padding: 0.2rem;
+}
+button {
+  background-color: #7781b1;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 1vh;
+  cursor: pointer;
+  width: 6vw;
+  margin: 0px 100px 10px 100px;
+}
+
+
+
 /*FOOTER*/
 footer {
   width: 100%;
@@ -103,6 +164,8 @@ footer {
   font-size: 1rem;
   margin-right: 20px;
 }
+
+
 
 /* MEDIA PARA SCREEN 1465px*/
 @media screen and (max-width: 1465px) {
@@ -305,58 +368,4 @@ footer {
     text-shadow: 2px 1px 1px violet;
     margin-bottom: 5px;
   }
-}
-
-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  text-align: center;
-}
-main h2{
-   background-color: rgb(0, 0, 0);
-   border-radius: 5rem;
-   padding: .5rem;
-  }
-
-form {
-  border: solid black 5px;
-  padding: 15px;
-  border-radius: 3rem;
-  width: 30rem; 
-  color: black;
-  text-align: center;
-  margin-bottom: 2rem;
-  background-color: #fff;
-}
-
-form h2 {
-  color: black;
-  text-align: center;
-  background-color: #fff;
-}
-input,
-button {
-  width: 100%;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  padding: 8px;
-  color: black;
-}
-
-form label {
-  display: flex;
-  justify-content: start;
-  width: auto;
-  color: black;
-  font-weight: 700;
-  border-radius: 3rem;
-  padding: 0.2rem;
-}
-button {
-  background-color: #465bb9;
-  color: rgb(0, 0, 0);
-  border: none;
-  cursor: pointer;
 }
