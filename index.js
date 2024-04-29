@@ -37,11 +37,13 @@
 
         if(nombre=="" || email=="" || password==""){
             alert("Debe llenar los campos!");
+            alert("No se completó el registro por falta de campos")
             resetearFormulario();
         }
 
         if(password=="" && confirmPassword=="" || nombre=="" || email=="" && password==confirmPassword){
             console.log("Debe completar los campos");
+            alert("No se completó el registro por falta de campos")
             resetearFormulario();
         }else if(confirmPassword==password && email.includes('@') && email.includes(".com")){ 
             console.log("Nombre:", nombre);
@@ -50,7 +52,8 @@
             console.log("Confirmar Contraseña:", confirmPassword);
             alert("Se registró tu cuenta "+nombre+"!");
         }else{        
-            alert("Las contraseñas no coinciden o La dirección de email no es valida!");   
+            alert("Las contraseñas no coinciden o La dirección de email no es valida!"); 
+            alert("No se pudo completar el registro")  
         }
 
         resetearFormulario();
