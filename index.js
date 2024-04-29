@@ -39,18 +39,20 @@
             alert("Debe llenar los campos!");
             resetearFormulario();
         }
+
         if(password=="" && confirmPassword=="" || nombre=="" || email=="" && password==confirmPassword){
             console.log("Debe completar los campos");
             resetearFormulario();
-        }else if(confirmPassword==password){ 
+        }else if(confirmPassword==password && email.includes('@') && email.includes(".com")){ 
             console.log("Nombre:", nombre);
             console.log("Email:", email);
             console.log("Contraseña:", password);
             console.log("Confirmar Contraseña:", confirmPassword);
             alert("Se registró tu cuenta "+nombre+"!");
         }else{        
-            alert("Las contraseñas no coinciden");   
+            alert("Las contraseñas no coinciden o La dirección de email no es valida!");   
         }
+
         resetearFormulario();
     }
     document.querySelector(".btn2").addEventListener("click", registrar); 
@@ -64,6 +66,7 @@
     }   
     document.querySelector(".btn1").addEventListener("click", resetearFormulario);
 
+    
 
 
     
