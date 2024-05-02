@@ -132,23 +132,21 @@
     font-weight: 400;
     text-shadow: 2px 1px 1px violet;
   }
-    .texto{
-      font-size: 1.1em; 
-      color:rgb(0, 0, 0);
-      line-height: 1.1;
-      padding-top: 3%;
-      padding-left: 2%;
-      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-      font-family: "Libre Baskerville", serif;
-      font-weight: 400;
+  .texto{
+    font-size: 1.1em; 
+    color:rgb(0, 0, 0);
+    line-height: 1.1;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
   }
   .parra{
-      font-size:1.3rem ;
-      color:black;
-      line-height: 1.6;
-      text-shadow: 2px 2px 4px rgb(158, 3, 206);
-      font-family: "Libre Baskerville", serif;
-      font-weight: 400;
+    font-size:1.3rem ;
+    color:black;
+    line-height: 1.6;
+    text-shadow: 2px 2px 4px rgb(158, 3, 206);
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
   }
   .vivi{
     font-size: 1.5em; 
