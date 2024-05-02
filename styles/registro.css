@@ -108,12 +108,12 @@ form {
   margin-bottom: 2rem;
   background-color: transparent;
 }
-input{
+form > input{
   width: 100%;
   border: solid rgb(255, 166, 0);
   border-radius: 2vh;
-  margin-top: 10px;
-  margin-bottom: 20px; 
+  margin-top: 8px;
+  margin-bottom: 8px; 
   padding: 8px;
   color: rgb(255, 255, 255);
   background-color: rgba(255, 153, 0, 0.452);
@@ -129,16 +129,65 @@ input::placeholder{
   font-weight: bolder;
   text-shadow: 1px 1px 1px blueviolet;
 }
-form label {
-  display: flex;
-  justify-content: start;
-  width: 10vw;
-  color: black;
-  font-weight: 700;
-  background-color: rgba(240, 255, 255, 0.788); 
+form > label {
+  display:inline-block;
+  width:  100%;
+  border: solid rgb(255, 166, 0);
   border-radius: 2vh;
-  padding: 0.2rem;
+  margin-top: 8px;
+  margin-bottom: 8px; 
+  padding: 8px;
+  background-color: rgba(255, 153, 0, 0.452);
+  color:black;
+  text-align: center;
+  font-size: medium;
+  font-weight: bolder;
+  text-shadow: 1px 1px 1px blueviolet;
 }
+
+.checkbox > input{
+  width: 1rem;
+  height: 1rem;
+  margin: 5px;
+  text-align: center;
+  font-weight: bold;
+  font-size: medium;
+}
+
+form > fieldset {
+  display: flex;
+  justify-content: center;
+  border: solid rgb(255, 166, 0);
+  background-color: rgba(255, 153, 0, 0.452);
+  border-radius: 2vh;
+  margin-top: 4px;
+  margin-bottom: 8px; 
+  color:black;
+  text-align: center;
+  font-size: small;
+  font-weight: bolder; 
+  text-shadow: 1px 1px 1px blueviolet;
+}
+
+fieldset > legend{
+  color: white;
+  text-align: center;
+  font-size: small;
+  font-weight: bolder;
+  text-shadow: 1px 1px 1px blueviolet;
+}
+
+fieldset > label {
+  color:black;
+  text-align: center;
+  font-size: small;
+  font-weight: bolder; 
+  text-shadow: 1px 1px 1px blueviolet;
+}
+
+
+
+
 button {
   background-color: #7781b1;
   color: rgb(255, 255, 255);
