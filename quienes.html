@@ -34,33 +34,39 @@
           <!--DENTRO DE ESTE DIV ↓, PUEDEN MOSTRARSE TRES TIPOS DE CONTENIDOS MEDIANTE JS-->
           <!--PRIMER CONTENIDO DEL DIV ↓-->
           <div id="pagina1" class="pagina activa">
-            <p><u class="parra">¿Quienes somos?</u><br></p>
-            <p class="texto">
-                Somos una comunidad apasionada por el astroturismo, unidos por el deseo de compartir experiencias inolvidables bajo las estrellas.<br>
-                A través de ©StarGazers, recopilamos, documentamos y difundimos información sobre viajes y <a style="color:black;" href="lugares.html">destinos únicos</a> para observar el cosmos.<br>
-                Colaboramos con diversas instituciones, organizaciones, empresas y centros turísticos para ofrecer una amplia gama de opciones para disfrutar de una noche mágica bajo el cielo nocturno.
-                <br>
-            <p class="vivi">¡Únete a nosotros y descubre la belleza del universo desde diferentes rincones de Argentina!</p><br>
-            <button class="btn" onclick="mostrarPagina('pagina2')">→</button>
+            <div class="displayContenido">
+              <h1>¿Quienes somos?</h1>
+              <p class="textoPrincipal">
+                Somos una comunidad apasionada por el astroturismo, unidos por el deseo de compartir experiencias  inolvidables bajo las estrellas.<br> A través de ©StarGazers, recopilamos, documentamos y difundimos información sobre viajes y <a style="color:black;" href="lugares.html">destinos únicos</a> para observar el cosmos.<br><br> Colaboramos con diversas instituciones, organizaciones, empresas y centros turísticos para ofrecer una amplia gama de opciones para disfrutar de una noche mágica bajo el cielo nocturno.<br>
+              </p>
+              <p class="textoUnete">¡Únete a nosotros y descubre la belleza del universo desde diferentes rincones de Argentina!</p><br>
+              <button class="btn" onclick="mostrarPagina('pagina2')">→</button>
+            </div>
           </div>
           <!--SEGUNDO CONTENIDO DEL DIV ↓-->
           <div id="pagina2" class="pagina">
-                <p><u class="parra">Intregrantes de la comunidad</u></p>
-                <p class="texto">Ezequiel Daniel Vermeulen<br></p>
-                <p class="texto">Juan Pablo Liendo<br></p>
-                <p class="texto">Emiliano Miguel Sartori<br></p>
-            <button class="btn" onclick="mostrarPagina('pagina1')">←</button>
-            <button class="btn" onclick="mostrarPagina('pagina3')">→</button>
+            <div class="displayContenido">
+              <h2>Intregrantes de la comunidad</h2>
+              <ul>
+                <li class="integrante">Ezequiel Daniel Vermeulen</li>
+                <li class="integrante">Juan Pablo Liendo</li>
+                <li class="integrante">Emiliano Miguel Sartori</li>
+              </ul>
+              <button class="btn" onclick="mostrarPagina('pagina1')">←</button>
+              <button class="btn" onclick="mostrarPagina('pagina3')">→</button>
+            </div>
           </div>
           <!--TERCER CONTENIDO DEL DIV ↓-->
           <div id="pagina3" class="pagina">
-            <h2>Nuestras Redes</h2>
-            <div class="redes">
-              <a href="https://www.facebook.com"><img src="./images/Facebook.png" alt=""></a>
-              <a href="https://web.whatsapp.com"><img src="./images/whatsappwhatssapp.png" alt=""></a>
-              <a href="https://www.instagram.com"><img src="./images/instagram.png" alt=""></a>
+            <div class="displayRedes">
+              <h3>Nuestras Redes</h3>
+              <div class="redes">
+                <a href="https://www.facebook.com"><img src="./images/Facebook.png" alt=""></a>
+                <a href="https://web.whatsapp.com"><img src="./images/whatsappwhatssapp.png" alt=""></a>
+                <a href="https://www.instagram.com"><img src="./images/instagram.png" alt=""></a>
+              </div>              
+              <button class="btn" onclick="mostrarPagina('pagina2')">←</button>
             </div>
-            <button class="btn" onclick="mostrarPagina('pagina2')">←</button>
           </div>
         </div>
         <!--ESTE DIV CONTIENE LA IMAGEN DE LA DERECHA ↓-->
