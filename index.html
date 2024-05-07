@@ -32,33 +32,39 @@
       <div class="contenido">
         <div class="textoContenido">
           <!--DENTRO DE ESTE DIV ↓, PUEDEN MOSTRARSE TRES TIPOS DE CONTENIDOS MEDIANTE JS-->
-          <!--SEGUNDO CONTENIDO DEL DIV ↓-->
+          <!--PRIMER CONTENIDO DEL DIV ↓-->
           <div id="pagina1" class="pagina activa">
-            <h2 class="tituloPrincipal">STARGAZERS</h2>
-            <p class="parrafoPrincipal">
+            <div class="displayContenido">
+              <h1 class="tituloPrincipal">STARGAZERS</h1>
+              <p class="parrafoPrincipal">
               "Explora el cielo desde los rincones más remotos: <br> ¡Sumérgete en el Astroturismo Argentino y descubre la belleza oculta del cosmos!"</p>
-            <button class="btn" onclick="mostrarPagina('pagina2')">→</button>
+              <button class="btn" onclick="mostrarPagina('pagina2')">→</button>
+            </div>
           </div>
           <!--SEGUNDO CONTENIDO DEL DIV ↓-->
           <div id="pagina2" class="pagina">
-            <p><u class="parra">¿Que es el Astroturismo?</u></p>
-            <p class="texto">El astroturismo, es un fenómeno en auge, invita a entusiastas de la astronomía a explorar los misterios del cosmos desde una perspectiva única. Este fascinante turismo combina elementos de naturaleza, cultura y ciencia, ofreciendo experiencias inolvidables para aficionados y expertos por igual.<br><br>
-            Los invitamos a ver:<br>"El camino eterno: ESTRELLAS ADENTRO".<br><br>
-            <iframe width="460" height="235" src="https://www.youtube.com/embed/Oynxc73-itE?si=82ZuGsNWFO3d8r44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
-            <button class="btn" onclick="mostrarPagina('pagina1')">←</button>
-            <button class="btn" onclick="mostrarPagina('pagina3')">→</button>
-          </div>
-          <!--SEGUNDO CONTENIDO DEL DIV ↓-->
-          <div id="pagina3" class="pagina">
-            <h2><u>Enlaces recomendados:</u></h2>
-            <div class="recomendados">
-              <a href="https://images.nasa.gov/">Libreria de imagenes y videos de la Nasa</a><br>
-              <a href="https://stellarium-web.org">Stellarium-Web</a><br>
-              <a href="https://play.google.com/store/apps/details?id=com.noctuasoftware.stellarium_free&hl=en">Star Map Stellarium Mobile para android</a><br>
-              <a href="https://play.google.com/store/apps/details?id=com.google.android.stardroid&pcampaignid=web_share">Google SkyMap para android</a><br>
-              <a href="https://play.google.com/store/apps/details?id=com.PYOPYO.StarTracker">StarTracker para android</a><br>
+            <div class="displayContenido">
+              <h2>¿Que es el Astroturismo?</h2>
+              <p class="segundoParrafo">El astroturismo, es un fenómeno en auge, invita a entusiastas de la astronomía a explorar los misterios del cosmos desde una perspectiva única.<br> Este fascinante turismo combina elementos de naturaleza, cultura y ciencia, ofreciendo experiencias inolvidables para aficionados y expertos por igual.<br><br>
+              Los invitamos a ver:<br>"El camino eterno: ESTRELLAS ADENTRO".<br>
+              <iframe src="https://www.youtube.com/embed/Oynxc73-itE?si=82ZuGsNWFO3d8r44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+              <button class="btn" onclick="mostrarPagina('pagina1')">←</button>
+              <button class="btn" onclick="mostrarPagina('pagina3')">→</button>
             </div>
-            <button class="btn" onclick="mostrarPagina('pagina1')">←</button>
+          </div>
+          <!--TERCER CONTENIDO DEL DIV ↓-->
+          <div id="pagina3" class="pagina">
+            <div class="displayContenido">
+              <h3>Enlaces recomendados:</h3>
+              <ul class="recomendados">
+                <li><a href="https://images.nasa.gov/"></a>Libreria de imagenes y videos de la Nasa<br></li>
+                <li><a href="https://stellarium-web.org">Stellarium-Web</a><br></li>
+                <li><a href="https://play.google.com/store/apps/details?id=com.noctuasoftware.stellarium_free&hl=en">Star Map Stellarium Mobile para android</a><br></li>
+                <li><a href="https://play.google.com/store/apps/details?id=com.google.android.stardroid&pcampaignid=web_share">Google SkyMap para android</a><br></li>
+                <li><a href="https://play.google.com/store/apps/details?id=com.PYOPYO.StarTracker">StarTracker para android</a><br></li>
+              </ul>
+              <button class="btn" onclick="mostrarPagina('pagina2')">←</button>
+            </div>
           </div>
         </div>
         <!--ESTE DIV CONTIENE LA IMAGEN DE LA DERECHA ↓-->
