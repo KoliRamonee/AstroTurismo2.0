@@ -125,7 +125,7 @@ main {
   align-content: space-around;
   align-items: center;
   justify-content: center;
-  margin-top: -10rem;
+  margin-top: 10rem;
 }
 .displayContenido > h1,h2,h3{
   text-align: center;
