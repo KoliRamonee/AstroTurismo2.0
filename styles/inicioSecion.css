@@ -97,6 +97,7 @@
     color: white; 
     border-radius: 2vh;
     padding: 1vh;
+    width: 100%;
   } 
   form {
     border: solid rgb(255, 166, 0) 5px;
@@ -108,6 +109,8 @@
     margin-bottom: 2rem;
     background-color: transparent;
   } 
+
+
   input{
     width: 100%;
     border: solid rgb(255, 166, 0);
