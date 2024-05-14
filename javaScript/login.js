@@ -6,7 +6,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     var password = document.getElementById("contraseña").value;
 
     // Verificar el email y la contraseña
-    if (email === "admin@example.com" && password === "Admin123") {
+    if (email === "admin@admin.com" && password === "Admin123") {
       alert("¡Inicio de sesión correcto!");
       // Aquí podrías redireccionar a otra página o realizar alguna otra acción después del inicio de sesión exitoso
     } else {
