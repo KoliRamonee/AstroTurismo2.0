@@ -14,18 +14,21 @@
   <body>
     <!-- CONTENIDO GENERAL DEL HEADER INCLUYENDO AL MISMO NAVBAR DENTRO -->
     <header class="header">
-      <a href="index.html"><img class="logo" src="./images/logo1.png" alt="logoStarGazers"></a>            
-      <ul class="lista1">
-        <li><a href="quienes.html" >Quienes somos?</a></li>
-        <li><a href="#" class="subrayado-permanente">Lugares</a></li>
-      </ul>
-      <ul class="lista2">
-        <li><a href="inicioSesion.html">Iniciar sesión</a></li>
-        <li id="registro"><a href="registro.html">Registrate</a></li>
-      </ul>
+      <div class="navbar">
+        <a href="index.html"><img class="logo" src="./images/logo1.png" alt="logoStarGazers"></a>            
+        <ul class="lista1">
+          <li><a href="quienes.html" >Quienes somos?</a></li>
+          <li><a href="#" class="subrayado-permanente">Lugares</a></li>
+        </ul>
+        <ul class="lista2">
+          <li><a href="inicioSesion.html">Iniciar sesión</a></li>
+          <li id="registro"><a href="registro.html">Registrate</a></li>
+        </ul>
+      </div>
     </header>
+    <!-- CONTENIDO PRINCIPAL DE LUGARES-->
     <main>
-      <!-- INICIO DE LISTA-->
+    <!-- PRIMER LISTA DE CONTENIDOS-->
     <div class="contenido">
       <div id="pagina1" class="pagina activa">
         <button class="btn" onclick="mostrarPagina('pagina2')">→</button>
@@ -134,7 +137,7 @@
           <button class="btn3" onclick="cerrarTarjeta(9)">←</button>
         </div>
       </div>
-      <!--SEGUNDO CONTENIDO DEL DIV ↓-->
+      <!--SEGUNDA LISTA DE CONTENIDOS-->
       <div id="pagina2" class="pagina">
         <button class="btn2" onclick="mostrarPagina('pagina1')">←</button>
         <div id="listaLugares2" class="grid-container">

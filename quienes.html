@@ -15,19 +15,21 @@
   </head>
 
   <body>
-    <!-- CONTENIDO GENERAL DEL HEADER INCLUYENDO AL MISMO NAVBAR DENTRO -->
+    <!--CONTENIDO GENERAL DEL HEADER INCLUYENDO AL MISMO NAVBAR DENTRO-->
     <header class="header">
-      <a href="index.html"><img class="logo" src="./images/logo1.png" alt="logoStarGazers"></a>            
-      <ul class="lista1">
-        <li><a href="#" class="subrayado-permanente">Quienes somos?</a></li>
-        <li><a href="lugares.html">Lugares</a></li>
-      </ul>
-      <ul class="lista2">
-        <li><a href="inicioSesion.html">Iniciar sesión</a></li>
-        <li id="registro"><a href="registro.html">Registrate</a></li>
-      </ul>
+      <div class="navbar">
+        <a href="index.html"><img class="logo" src="./images/logo1.png" alt="logoStarGazers"></a>            
+        <ul class="lista1">
+          <li><a href="#" class="subrayado-permanente">Quienes somos?</a></li>
+          <li><a href="lugares.html">Lugares</a></li>
+        </ul>
+        <ul class="lista2">
+          <li><a href="inicioSesion.html">Iniciar sesión</a></li>
+          <li id="registro"><a href="registro.html">Registrate</a></li>
+        </ul>
+      </div>
     </header>
-    <!-- CONTENIDO PRINCIPAL DE NUESTRO HOME-->
+    <!--CONTENIDO PRINCIPAL DE NUESTRO HOME-->
     <main>
       <div class="contenido">
         <div class="textoContenido">
@@ -58,14 +60,14 @@
           </div>
           <!--TERCER CONTENIDO DEL DIV ↓-->
           <div id="pagina3" class="pagina">
+            <h3>Nuestras Redes</h3>
             <div class="displayRedes">
-              <h3>Nuestras Redes</h3>
               <div class="redes">
                 <a href="https://www.facebook.com"><img src="./images/Facebook.png" alt="facebookLogo"></a>
                 <a href="https://web.whatsapp.com"><img src="./images/whatsappwhatssapp.png" alt="whatsappLogo"></a>
                 <a href="https://www.instagram.com"><img src="./images/instagram.png" alt="instagramLogo"></a>
-              </div>              
-              <button class="btn" onclick="mostrarPagina('pagina2')">←</button>
+              </div>
+            <button class="btn" onclick="mostrarPagina('pagina2')">←</button>              
             </div>
           </div>
         </div>
