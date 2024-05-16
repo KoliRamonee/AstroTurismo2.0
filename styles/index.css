@@ -246,7 +246,7 @@ footer {
 }
 
 
-/* MEDIA PARA SCREEN 1465px*/
+/* MEDIA PARA SCREEN 1465px */
 @media screen and (max-width: 1465px){
   .lista1 {
     font-size: 1.4em;
@@ -301,9 +301,6 @@ footer {
   }
   .contenido {
     width: 85vw;
-  }
-  .contenido {
-    height: 70vh;
     height: 60vh;
   }
   .textoContenido {
@@ -312,6 +309,7 @@ footer {
   }
   .displayContenido{
     margin-top: 5px;
+    margin-left: 0;
   }
   .displayContenido > h1{
     margin-top: 10px;
