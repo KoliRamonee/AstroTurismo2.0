@@ -90,7 +90,7 @@ body {
     align-items: center;
   }
   .contenido {
-    width: 70vw;
+    width: 75vw;
     height: 65vh;
     display: flex;
     flex-direction: row;
@@ -103,11 +103,15 @@ body {
     border-top-left-radius: 120px;
     border-bottom-left-radius: 10px;
     box-shadow: 5px 5px 20px rgba(127, 126, 126, 0.681); 
-    opacity: 70%;
+    opacity: 90%;
   }
   .textoContenido {
     width: 50%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
   }
   .pagina {
     display: none;
@@ -133,7 +137,7 @@ body {
   .displayContenido > h1{
     color: black;
     text-shadow: 2px 1px 1px rgb(255, 187, 0);
-    margin:0;
+
   }
   .textoPrincipal{
     font-size: 1.2em;
@@ -155,7 +159,6 @@ body {
   }
   h2{
     margin-top: 5rem;
-    font-size: 1.9em;
     color:black;
     text-shadow: 2px 2px 4px rgb(158, 3, 206);
   }
@@ -177,24 +180,30 @@ body {
     font-family: "Libre Baskerville", serif;
     font-weight: 400;
   }
-  .displayRedes{
-    display: flex;
-    justify-content: center; 
-  }
-  .pagina>h3{
+  .displayRedes>h3{
     color:black;
     text-shadow: 2px 2px 4px rgb(158, 3, 206);
   }
+  .displayRedes{
+    width: 100%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+  }
   .redes{
     width: 100%;
-  }
-  .redes>a{
     display: flex;
-    justify-content: space-around;
-    width: 80px;
+    justify-content: space-between;
+    margin-bottom: 25px;
   }
   .redes>a>img{
-    width: 50px;
+    width: 4vw;
+    margin: 5px;
+    align-items: center;
   }
   .btn{
     background-color: black;
@@ -203,17 +212,17 @@ body {
     margin: 3px;
   }
   .imagenContenido{
-    width: 80vh;
-    height: 50vh;
-    justify-content: center;
-    align-items: center;
-    display:flex;
+    width: 60%;
     margin-top: 3%;
     margin-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
   }
   .imagenContenido img{
     width: 70%;
-    height: 90%;
     margin-top: 6%;
     margin-bottom: 6%;
   }
