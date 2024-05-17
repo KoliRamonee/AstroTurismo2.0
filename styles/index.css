@@ -9,15 +9,14 @@ body {
   background-repeat: repeat-y;
   background-size: cover;
   background-position: center;
-} 
-
+}
 /*HEADER*/
 .header {
   height: 8vh;
   display: flex;
   justify-content: space-between;
 }
-.navbar{
+.navbar {
   width: 100%;
   height: 70px;
   margin-top: 15px;
@@ -25,7 +24,7 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.logo{
+.logo {
   width: 4.2em;
   opacity: 80%;
 }
@@ -57,13 +56,13 @@ body {
   text-decoration: none;
   display: flex;
 }
-#registro{
+#registro {
   background-color:rgb(255, 255, 255, 0.6);
   color: black;
   padding:0.8vh;
   border-radius: 1rem;
 }
-#registro a{
+#registro a {
   color: black;
 }
 .lista1 a::after,
@@ -82,7 +81,6 @@ body {
 .lista1 a.subrayado-permanente::after {
   width: 100%; 
 }
-
 /*MAIN*/
 main {
   width: 98vw;
@@ -120,7 +118,7 @@ main {
 .activa {
   display: block;
 }
-.displayContenido{
+.displayContenido {
   height: 40vh;
   display: flex;
   flex-direction: row;
@@ -219,7 +217,6 @@ h3{
   margin-top: 6%;
   margin-bottom: 6%;
 }
-
 /*FOOTER*/
 footer {
   width: 100%;
@@ -244,8 +241,6 @@ footer {
   font-size: 1rem;
   margin-right: 20px;
 }
-
-
 /* MEDIA PARA SCREEN 1465px */
 @media screen and (max-width: 1465px){
   .lista1 {
@@ -289,7 +284,6 @@ footer {
   }
 
 }
-
 /* MEDIA PARA SCREEN 850px*/
 @media screen and (max-width: 850px) { 
   .lista1 {
@@ -330,7 +324,6 @@ footer {
     flex-direction: column;
   }
   .contenido{
-
     width: 98%;
   }
   .textoContenido {
