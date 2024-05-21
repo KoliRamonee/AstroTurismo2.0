@@ -37,7 +37,6 @@
 
         if(nombre=="" || email=="" || password==""){
             alert("Debe llenar los campos!");
-            alert("No se completó el registro por falta de campos")
             resetearFormulario();
         }
 
