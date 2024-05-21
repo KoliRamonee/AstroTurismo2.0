@@ -139,6 +139,7 @@ main {
 .displayContenido > h1{
   font-size: 3em;
   text-shadow: 2px 1px 1px rgb(255, 187, 0);
+  margin: 0px 0px 0px 0px;
 }
 .displayContenido > h2{
   margin-top: 5rem;
@@ -268,7 +269,7 @@ footer {
     font-size: 2em;
   }
   .textoPrincipal{
-    font-size: 1.1em;
+    font-size: 1.0em;
     line-height: 1;
   }
   .textoUnete{
@@ -311,11 +312,11 @@ footer {
     font-size: 2em;
   }
   .textoPrincipal{
-    font-size: 1.1em;
+    font-size: 1em;
     line-height: 1;
   }
   .textoUnete{
-    font-size: 1.3em;
+    font-size: 1.1em;
   }
   .displayContenido>ul{
     font-size: 1.3em;
@@ -333,16 +334,16 @@ footer {
     display: none;
   }
 }
-
 /* MEDIA PARA SCREEN 390px*/
 @media screen and (max-width: 390px){
   .lista1 {
-    font-size: 1em;
-    flex-direction: column;
+    font-size: 0.8rem;
+    padding: 3%;
   }
   .lista2 {
-    font-size: 0.9em;
     flex-direction: column;
+    font-size: 0.75rem;
+    text-align: center;
   }
   .contenido {
     height: 70vh;
@@ -357,13 +358,13 @@ footer {
     font-size: 1.7em;
   }
   .textoPrincipal{
-    font-size: 1em;
+    font-size: 0.85em;
   }
   .textoUnete{
-    font-size: 1.2em;
+    font-size: 1em;
   }
   .displayContenido>ul{
-    font-size: 1.3em;
+    font-size: 1.05em;
   }
   .displayContenido>h3{
     margin-top: 5.5vh;

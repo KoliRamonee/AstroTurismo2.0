@@ -422,11 +422,11 @@ footer{
   }
   .btn{
     right: 2.5%;
-    bottom: 15%;
+    bottom: 50%;
   }
   .btn2{
     left: 2.5%;
-    bottom: 15%;
+    bottom: 50%;
   }
   .contenido-tarjeta > h1{
     font-size: 2em;
@@ -493,7 +493,16 @@ footer{
 /* MEDIA PARA SCREEN 540px*/
 @media screen and (max-width: 540px){
   .lista1 {
+    font-size: 0.8rem;
+    padding: 3%;
+  }
+  .lista2 {
     flex-direction: column;
+    font-size: 0.75rem;
+    text-align: center;
+  }
+  .grid-container{
+    margin-top:4vh;
   }
   .contenido-tarjeta > h1{
     font-size:1.2em;

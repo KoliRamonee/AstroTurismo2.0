@@ -25,7 +25,7 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.logo{
+.logo {
   width: 4.2em;
   opacity: 80%;
 }
@@ -48,6 +48,7 @@ body {
 .lista2 li {
   margin: 0.5vh;
 }
+
 .lista1 a,
 .lista2 a {
   text-decoration: none; 
@@ -199,16 +200,10 @@ footer {
     opacity: 80%;
   }
   .lista1 {
-    font-weight: 450;
-    font-size: 2.5vh;
-    display: flex;
-    margin-left: 0vh;
+    font-size: 1.4em;
   }
   .lista2 {
-    font-weight: 450;
-    font-size: 2.5vh;
-    display: flex;
-    margin-right: 0vh;
+    font-size: 0.9em;
   }
 
   .contenido {
@@ -265,8 +260,9 @@ footer {
     margin-right: 20px;
     text-shadow: 1px 1px 1px rgb(223, 175, 0);
   }
+ 
 }
-/* MEDIA PARA SCREEN 800px*/
+/* MEDIA PARA SCREEN 850px*/
 @media screen and (max-width: 850px) {
   body {
     width: 98vw;
@@ -349,17 +345,73 @@ footer {
     margin-right: 20px;
     text-shadow: 1px 1px 1px rgb(223, 175, 0);
   }
-}
-/* MEDIA PARA SCREEN 380px*/
-@media screen and (max-width: 380px) {
-  .parrafoPrincipal {
-    font-size: 1.4rem;
-    line-height: 1.3;
+  .formulario {
+    border: solid rgb(255, 166, 0) 5px;
+    padding: 15px;
+    border-radius: 2vh;
+    width: 95vw;
+    color: rgb(255, 255, 255);
     text-align: center;
-    color: black;
-    font-family: "Libre Baskerville", serif;
-    font-weight: 400;
-    text-shadow: 2px 1px 1px violet;
-    margin-bottom: 5px;
+    margin-bottom: 2rem;
+    background-color: transparent;
+  } 
+  .inicioSesionDiv > h1 {
+    background-color: rgb(0, 0, 0);
+    color: white; 
+    border-radius: 2vh;
+    padding: 1vh;
+    width: 90vw;
+    font-size: 1.17rem;
+    text-align: center;
+  } 
+  button {
+    background-color: #7781b1;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 1vh;
+    cursor: pointer;
+    width: 20vw;
+    margin: 0px 100px 10px 100px;
   }
+}
+/* MEDIA PARA SCREEN 430px*/
+@media screen and (max-width: 430px) {
+  .lista1 {
+    font-size: 0.8rem;
+    padding: 3%;
+  }
+  .lista2 {
+    flex-direction: column;
+    font-size: 0.75rem;
+    text-align: center;
+  }
+  .formulario {
+    border: solid rgb(255, 166, 0) 5px;
+    padding: 15px;
+    border-radius: 2vh;
+    width: 95vw;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 2rem;
+    background-color: transparent;
+  } 
+  .inicioSesionDiv > h1 {
+    background-color: rgb(0, 0, 0);
+    color: white; 
+    border-radius: 2vh;
+    padding: 1vh;
+    width: 90vw;
+    font-size: 1rem;
+    text-align: center;
+  } 
+  button {
+    background-color: #7781b1;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 1vh;
+    cursor: pointer;
+    width: 20vw;
+    margin: 0px 100px 10px 100px;
+  }
+
 }
