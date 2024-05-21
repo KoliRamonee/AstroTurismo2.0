@@ -17,45 +17,78 @@ body {
   color: white;
 }
 
-/* Header */
-.header {
-  height: 20vh;
-  display: flex;
-  align-items: center;
-  padding: 0 1rem;
-}
 
+/*HEADER*/
+.header {
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+}
 .navbar {
   width: 100%;
+  height: 70px;
+  margin-top: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .logo {
-  width: 100px;
+  width: 4.2em;
+  opacity: 80%;
 }
-
-.lista {
+.lista1 {
+  width: 25%;
+  font-weight: 450;
+  font-size: 1.5em;
+  text-shadow: 2px 2px 2px rgb(138, 26, 138);
   display: flex;
-  list-style-type: none;
+  justify-content: space-between;
 }
-
-.lista li {
-  margin: 0 1rem;
-  font-size: 1.5rem;
+.lista2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-weight: 450;
+  font-size: 1em;
 }
-
-.lista a {
+.lista1 li,
+.lista2 li {
+  margin: 0.5vh;
+}
+.lista1 a,
+.lista2 a {
   text-decoration: none;
-  color: white;
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
 }
-
 #registro {
-  background-color: rgba(255, 255, 255, 0.6);
-  padding: 0.5rem;
+  background-color: rgb(255, 255, 255, 0.6);
+  color: black;
+  padding: 0.8vh;
   border-radius: 1rem;
 }
+#registro a {
+  color: black;
+}
+.lista1 a::after,
+.lista2 a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s ease;
+  opacity: 65%;
+}
+.lista1 a:hover::after,
+.lista1 a.subrayado-permanente::after {
+  width: 100%;
+}
+
 
 /* Media queries para hacer el header responsive */
 @media screen and (max-width: 768px) {
@@ -85,6 +118,8 @@ body {
   height: 700px;
   display: flex;
   justify-content: center;
+  margin-top: 10vh;
+
 }
 
 .formulario {
